@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/resPic_ImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resName_ListViewText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:id="@+id/resCuisine_ListViewText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="25"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/resAddress_ListViewText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
