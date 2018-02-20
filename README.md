@@ -6,6 +6,9 @@ Sesturant is a restaurant tracker (powered by the Zomato API) that shows all of 
 User can also save their favorites restaurants locally to the device.
 When theuser tapps on one of the locations, the app shows basic information about the restaurant like images (if provided by the API), price estimation, food type, GPS location, and  more.
 
+Installation: 
+Intall the App via APK on any device, run in Android Stuio or Drag and Drop on a Android Stuio Phone Emulator
+
 Requirements:
 An Android phone with internet connection and location (or GPS) on.
 
